@@ -6,7 +6,19 @@
   <title>Basic Tailwind</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-plate-900">
-  <h1 class="bg-plate">hello</h1>
-</body>
+<body class="bg-slate-950">
+  <!-- navbar goes here -->
+   <nav class="w-full h-14 bg-indigo-200 flex justify-between px-4 md:px-4 items-center">
+    <div class="text-2xl text-indigo-700 ">PW Skills</div>
+    <ul class="md:flex hidden font-semibold">
+      <li class="mx-[10px] cursor-pointer">Home</li>
+      <li class="mx-[10px] cursor-pointer">About Us</li>
+      <li class="mx-[10px] cursor-pointer">Contact Us</li>
+    </ul>
+    <div class="hidden md:block px-2 py-2 bg-indigo-700 text-white rounded font-bold cursor-pointer">Login/Signup</div>
+    <div class="md:hidden">
+      <a class="text-4xl" href="#">&#8801;</a>
+    </div>
+   </nav>
+  </body>
 </html>
