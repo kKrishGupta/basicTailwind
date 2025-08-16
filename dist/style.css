@@ -186,6 +186,9 @@
   .h-14 {
     height: calc(var(--spacing) * 14);
   }
+  .h-auto {
+    height: auto;
+  }
   .w-full {
     width: 100%;
   }
